@@ -1,0 +1,82 @@
+/* Element Attributes */
+body, html {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+
+/* ID Attributes */
+
+
+/* Class Attributes */
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+position: relative;
+opacity:0.70;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+
+
+}
+.pimg1 {
+  background-image: url('img/bottle.jpg');
+  min-height: 100%;
+}
+
+.pimg2 {
+background-image: url('img/board.jpg');
+min-height:700px;
+}
+
+.pimg3 {
+  background-image: url('img/sign.jpg');
+  min-height:900px;
+}
+
+.pimg4 {
+background-image: url('img/dawnsurf.jpg');
+min-height: 900px;
+}
+
+.pimg5 {
+  background-image: url('img/people.jpg');
+  min-height: 700px;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color:#666
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color:#000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border{
+  background-color:none;
+  color:#fff;
+  padding:20px;
+}
